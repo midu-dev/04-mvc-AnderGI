@@ -9,5 +9,23 @@ Content-Type: application/json
     "description":"New Description of Task"
 }
 
+
+### Handle POST errors / Task addition errors
+### if no description is added 
+POST http://localhost:1234/tasks
+Content-Type: application/json
+
+{
+    
+}
+
+### if description is incorrect
+POST http://localhost:1234/tasks
+Content-Type: application/json
+
+{
+    "description" : 1234
+}
+
 ### DELETE task based on id param
 DELETE http://localhost:1234/tasks/1

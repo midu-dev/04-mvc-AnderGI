@@ -33,7 +33,7 @@ export class TaskModel {
    * @returns {Object} The new task object.
    */
   static addTask({ description }) {
-    //Validar con zod?
+    //Validar con zod?gi
     const newTask = {
       id: currentId,
       description,
