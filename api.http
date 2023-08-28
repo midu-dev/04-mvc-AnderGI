@@ -1,0 +1,13 @@
+### GET all tasks
+GET http://localhost:1234/tasks
+
+### POST task add new task
+POST http://localhost:1234/tasks
+Content-Type: application/json
+
+{
+    "description":"New Description of Task"
+}
+
+### DELETE task based on id param
+DELETE http://localhost:1234/tasks/1
