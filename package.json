@@ -8,10 +8,8 @@
 		"standard": "17.1.0",
 		"supertest": "6.3.3"
 	},
-	"eslintConfig": {
-		"extends": "standard"
-	},
 	"dependencies": {
-		"express": "4.18.2"
+		"express": "4.18.2",
+		"zod": "^3.22.2"
 	}
 }
